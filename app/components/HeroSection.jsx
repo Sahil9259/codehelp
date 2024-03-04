@@ -16,14 +16,14 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
-            <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className=" text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
                 "Sahil Singh",
-                1000,
+                1500,
                 "Web Developer",
                 1000,
                 "Competitive Programmer",
@@ -46,8 +46,9 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1DO-OV8B9Rvfn-dwX0EQig5tM6V7WzBtO/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
+              target="_blank"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
@@ -61,13 +62,13 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[350px] h-[350px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[375px] lg:h-[375px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/profile.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-[275px] h-[275px] lg:w-[350px] lg:h-[350px]"
               priority="high"
             />
           </div>
