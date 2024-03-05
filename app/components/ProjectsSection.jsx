@@ -8,16 +8,16 @@ const projectsData = [
   {
     id: 1,
     title: "Portfolio Website",
-    description: "Project 1 description",
+    description: "",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Sahil9259/codehelp",
+    gitUrl: "",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "E-commerce website",
-    description: "Project 2 description",
+    title: "Food Ordering Websites",
+    description: "Foodie App is a user-friendly food ordering website offering user-friendly interfaces, secure authentication, menu browsing, adding products to the cart and order management.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Sahil9259/Food-App/",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "Video Calling Website",
-    description: "Project 3 description",
+    description: "A responsives video calling websites providing high-quality video, personalized features, and secure communication for an immersive and secure virtual experience.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Sahil9259/Video_Meeting",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Netflix Clone",
-    description: "Project 4 description",
+    description: "A vast library of films, series, and documentaries, intuitive user interfaces, personalized recommendations, and seamless streaming for an unparalleled cinematic experience.",
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Sahil9259/netflix-clone",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Quotes Finder",
-    description: "Authentication and CRUD operations",
+    description: "A visually appealing, responsive API-based Reactjs project that displays quotes.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://quote-sahil9259.netlify.app/",
@@ -53,10 +53,11 @@ const projectsData = [
   {
     id: 6,
     title: "Movie Finder",
-    description: "Project 5 description",
+    description: "Movie Finder help the users to search for and explore comprehensive information about movies.",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "https://sahil9259-moviefinder.netlify.app/",
+    // gitUrl: "https://sahil9259-moviefinder.netlify.app/",
+    gitUrl: "",
     previewUrl: "https://sahil9259-moviefinder.netlify.app/",
   },
 ];

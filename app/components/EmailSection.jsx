@@ -27,8 +27,13 @@ const EmailSection = () => {
     };
 
     const response = await fetch(endpoint, options);
+    if (!response.ok) {
+      const errorMessage = await response.text();
+      console.error("Email sending error:", errorMessage);
+      return;
+    }
     const resData = await response.json();
-
+    console.log(resData);
     if (response.status === 200) {
       console.log("Message sent.");
       setEmailSubmitted(true);
@@ -40,7 +45,7 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div>
         <Image
           src="/images/about.png"
@@ -57,7 +62,7 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 pl-5 ml-4">
           <Link href="https://github.com/Sahil9259" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
@@ -121,7 +126,7 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-purple-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
             </button>
