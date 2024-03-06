@@ -66,10 +66,10 @@ const TAB_DATA = [
     id: "codingprofiles",
     content: (
       <ul className="list-disc pl-2">
-        <Link href="https://codeforces.com/profile/Sahil9259" target="_blank"><li>Codeforces</li></Link>
-        <Link href="https://leetcode.com/sahil9259/" target="_blank"><li>LeetCode</li></Link>
-        <Link href="https://www.codechef.com/users/alonewarrior07" target="_blank"><li>Codechef</li></Link>
-        <Link href="https://auth.geeksforgeeks.org/user/sahil9259" target="_blank"><li>GeekforGeeks</li></Link>
+        <Link href="https://codeforces.com/profile/Sahil9259" className="cursor-pointer" target="_blank"><li>Codeforces</li></Link>
+        <Link href="https://leetcode.com/sahil9259/" target="_blank" className="cursor-pointer" ><li>LeetCode</li></Link>
+        <Link href="https://www.codechef.com/users/alonewarrior07" target="_blank" className="cursor-pointer" ><li>Codechef</li></Link>
+        <Link href="https://auth.geeksforgeeks.org/user/sahil9259" target="_blank" className="cursor-pointer" ><li>GeekforGeeks</li></Link>
       </ul>
     ),
   },
