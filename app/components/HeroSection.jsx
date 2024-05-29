@@ -35,8 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            
           </p>
           <div>
             <Link
@@ -46,7 +45,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1DO-OV8B9Rvfn-dwX0EQig5tM6V7WzBtO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1phdzdlDQDPQI6hDBlWkwAvFvqWnJLrfE/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
               target="_blank"
             >
